@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(229, 221, 212);
+    padding: 3px;
+    transition: 0.6s;
+}
+
+.dark-mode .all {
+    transform: scale(1.1);
+}
+
+.h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.container {
+    width: 34%;
+    margin: 0 auto;
+}
+
+.controlist {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.controlist input {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.send {
+    padding: 10px 20px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.lightDark {
+    background-color: #1c2f60;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.dark-darkLight {
+    background-color: rgb(33, 138, 183);
+}
+
+.note {
+    border-bottom: 1px solid #6C63FF;
+    padding: 10px 15px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note:hover {
+    border: 1px solid #554ded;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 2.5s;
+}
+
+.editDelete span {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dark-mode {
+    width: 1390px;
+    transform: scale(1);
+    padding: 10px 10px;
+    background-color: rgb(33, 84, 106);
+    color: rgb(198, 198, 198);
+}
+
+.dark-mode .container {
+    width: 38%;
+}
+
+.dark-mode .note {
+    background: linear-gradient(to right, rgb(65, 102, 118), rgb(21, 77, 101));
+    /* border: 3px solid rgb(22, 140, 79); */
+    border-bottom: 2px solid rgb(111, 173, 25);
+}
+
+.dark-mode .note:hover {
+    /* background: linear-gradient(to right, rgb(65, 102, 118), rgb(21, 77, 101)); */
+    /* border: 3px solid rgb(22, 140, 79); */
+    border: 2px solid rgb(111, 173, 25);
+}
+
+.dark-mode button {
+    color: rgb(198, 198, 198);
+}
+
+.inputEdit {
+    height: 20px;
+    padding: 7px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.edit:hover {
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    padding: 4px;
+}
+
+.delt:hover {
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    padding: 4px;
+}
+
+.submitEdit {
+    color: white;
+    padding: 5px 8px;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #089388;
+}
+
+.dark-mode .quitDiv {
+    margin-right: 0px;
+    margin-top: 9px;
+}
+
+.quitDiv {
+    width: 100%;
+    margin-right: 8px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.quit {
+    margin-right: 7px;
+    padding: 5px 8px;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #089388;
+    color: white;
+}
+
+.eMaktab {
+    padding: 5px 8px;
+    background-color: #6C63FF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #089388;
+    color: white;
+}
+
+.sound{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #cccccc00;
+    border: none;
+}
